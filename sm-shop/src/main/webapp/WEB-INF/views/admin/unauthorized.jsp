@@ -58,7 +58,7 @@
 				<link
 					href="<c:url value="/resources/css/sm-bootstrap-responsive.css" />"
 					rel="stylesheet" />
-				<link href="<c:url value="/resources/css/react_native.css" />"
+				<link href="<c:url value="/resources/css/java_spring.css" />"
 					rel="stylesheet" />
 
 

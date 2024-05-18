@@ -15,32 +15,32 @@
 	
 	<!-- controllers -->
 	<!--deprecated, implemented in java config-->
-  	<!--<beans:import resource="classpath:/spring/react_native-controllers.xml" />-->
+  	<!--<beans:import resource="classpath:/spring/java_spring-controllers.xml" />-->
   	<!-- properties -->
 	<!--deprecated, implemented in java config-->
-  	<!--<beans:import resource="classpath:/spring/react_native-properties.xml" />-->
+  	<!--<beans:import resource="classpath:/spring/java_spring-properties.xml" />-->
   	<!-- security -->
-	<beans:import resource="classpath:/spring/react_native-security.xml" />
+	<beans:import resource="classpath:/spring/java_spring-security.xml" />
   	<!-- servlet-context -->
 	<!--deprecated, implemented in java config-->
-  	<!--<beans:import resource="classpath:/spring/react_native-servlet-context.xml" />-->
+  	<!--<beans:import resource="classpath:/spring/java_spring-servlet-context.xml" />-->
   	
   	  <!-- content by profile -->
 	<!--deprecated, implemented in java config-->
 	  <!--<beans:beans profile="default">-->
-	  	<!--<beans:import resource="classpath:/spring/react_native-content.xml" />-->
+	  	<!--<beans:import resource="classpath:/spring/java_spring-content.xml" />-->
 	  <!--</beans:beans>-->
 	  <!--<beans:beans profile="docker">-->
-	  	<!--<beans:import resource="classpath:/spring/react_native-content.xml" />-->
+	  	<!--<beans:import resource="classpath:/spring/java_spring-content.xml" />-->
 	  <!--</beans:beans>-->
 	    <!--<beans:beans profile="gcp">-->
-	  	<!--<beans:import resource="classpath:/spring/react_native-content.xml" />-->
+	  	<!--<beans:import resource="classpath:/spring/java_spring-content.xml" />-->
 	  <!--</beans:beans>-->
 	  <!--<beans:beans profile="aws">-->
-	  	<!--<beans:import resource="classpath:/profiles/aws/react_native-content.xml" />-->
+	  	<!--<beans:import resource="classpath:/profiles/aws/java_spring-content.xml" />-->
 	  <!--</beans:beans>-->
 	  <!--<beans:beans profile="cloud">-->
-	  	<!--<beans:import resource="classpath:/profiles/aws/react_native-content.xml" />-->
+	  	<!--<beans:import resource="classpath:/profiles/aws/java_spring-content.xml" />-->
 	  <!--</beans:beans>-->
 
 	

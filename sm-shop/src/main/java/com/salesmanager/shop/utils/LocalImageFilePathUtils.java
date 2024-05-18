@@ -12,7 +12,7 @@ import com.salesmanager.shop.model.catalog.manufacturer.Manufacturer;
 
 
 /**
- * To be used when working with react_native servlet for managing images
+ * To be used when working with java_spring servlet for managing images
  * 	<beans:bean id="img" class="com.salesmanager.shop.utils.LocalImageFilePathUtils">
 		<beans:property name="basePath" value="/static" />
 	</beans:bean>

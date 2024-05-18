@@ -27,7 +27,7 @@ import com.salesmanager.core.modules.order.total.OrderTotalPostProcessorModule;
 
 /**
  * Add variation to the OrderTotal
- * This has to be defined in react_native-core-ordertotal-processors
+ * This has to be defined in java_spring-core-ordertotal-processors
  * @author carlsamson
  *
  */

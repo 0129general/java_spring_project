@@ -18,7 +18,7 @@
     <!--[if lt IE 9]>
       <!--<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>-->
     <![endif]-->
-	<link href="<c:url value="/resources/css/react_native-admin.css" />" rel="stylesheet">
+	<link href="<c:url value="/resources/css/java_spring-admin.css" />" rel="stylesheet">
 
 
     <script src="<c:url value="/resources/js/jquery.showLoading.min.js" />"></script>

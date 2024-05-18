@@ -75,7 +75,7 @@
 				<link
 					href="<c:url value="/resources/css/bootstrap/css/sm-bootstrap.css" />"
 					rel="stylesheet" />
-				<link href="<c:url value="/resources/css/react_native-admin.css" />"
+				<link href="<c:url value="/resources/css/java_spring-admin.css" />"
 					rel="stylesheet" />
 
 
@@ -315,8 +315,8 @@
 							</p>
 						</div>
 						<div style="float: right;">
-							<img alt="go to www.react_native.com"
-								src="<c:url value="/resources/img/react_native_small.png" />">
+							<img alt="go to www.java_spring.com"
+								src="<c:url value="/resources/img/java_spring_small.png" />">
 						</div>
 					</div>
 
@@ -490,7 +490,7 @@
 							×
 						</button>
 						<h3 id="myModalLabel" style="color:#333333;">
-						<s:message code="" text="react_native"/>
+						<s:message code="" text="java_spring"/>
 						</h3>
 					</div>
 					<form method="post" id="resetPasswordForm" class="form-horizontal"

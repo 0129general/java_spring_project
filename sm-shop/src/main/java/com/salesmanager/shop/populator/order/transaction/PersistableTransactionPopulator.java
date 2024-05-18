@@ -13,7 +13,7 @@ import com.salesmanager.core.model.payments.Transaction;
 import com.salesmanager.core.model.payments.TransactionType;
 import com.salesmanager.core.model.reference.language.Language;
 import com.salesmanager.shop.model.order.transaction.PersistableTransaction;
-import com.react_native.search.utils.DateUtil;
+import com.java_spring.search.utils.DateUtil;
 
 public class PersistableTransactionPopulator extends AbstractDataPopulator<PersistableTransaction, Transaction> {
 

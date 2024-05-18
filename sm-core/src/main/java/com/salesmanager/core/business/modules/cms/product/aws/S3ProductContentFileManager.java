@@ -52,7 +52,7 @@ public class S3ProductContentFileManager
 
   private static S3ProductContentFileManager fileManager = null;
 
-  private static String DEFAULT_BUCKET_NAME = "react_native-content";
+  private static String DEFAULT_BUCKET_NAME = "java_spring-content";
   private static String DEFAULT_REGION_NAME = "us-east-1";
   private static final String ROOT_NAME = "products";
 

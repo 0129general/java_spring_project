@@ -47,7 +47,7 @@ public class ImportIntegrationModule  {
 		
 
 			ObjectMapper mapper = new ObjectMapper();
-			File file = new File(" /Users/carlsamson/Documents/dev/workspaces/react_native-master/react_native/sm-core/src/main/resources/reference/integrationmodules.json");
+			File file = new File(" /Users/carlsamson/Documents/dev/workspaces/java_spring-master/java_spring/sm-core/src/main/resources/reference/integrationmodules.json");
 			
 			InputStream in = null;
 			
@@ -103,7 +103,7 @@ public class ImportIntegrationModule  {
 		
 
 			ObjectMapper mapper = new ObjectMapper();
-			File file = new File("/Users/carlsamson/Documents/dev/workspaces/react_native-master/react_native/sm-core/src/main/resources/reference/integrationmodules.json");
+			File file = new File("/Users/carlsamson/Documents/dev/workspaces/java_spring-master/java_spring/sm-core/src/main/resources/reference/integrationmodules.json");
 			
 			InputStream in = null;
 			

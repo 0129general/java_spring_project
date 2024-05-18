@@ -11,7 +11,7 @@ import com.salesmanager.core.business.configuration.DroolsConfiguration;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan({"com.salesmanager.core.business"})
-@ImportResource("spring/test-react_native-context.xml")
+@ImportResource("spring/test-java_spring-context.xml")
 @Import(DroolsConfiguration.class)
 public class ConfigurationTest {
 	

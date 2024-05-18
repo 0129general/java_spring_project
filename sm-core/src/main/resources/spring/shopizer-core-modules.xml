@@ -34,7 +34,7 @@
     			<!--
     			This will activate drules
     			<beans:entry key="customQuotesRules" value-ref="customShippingPriceModule"/>
-    			--><!--as defined in react_native-core-rules-->
+    			--><!--as defined in java_spring-core-rules-->
     </util:map>
     
     <beans:bean id="manufacturerShippingCodeOrderTotalModule" class="com.salesmanager.core.business.modules.order.total.ManufacturerShippingCodeOrderTotalModuleImpl">
@@ -52,7 +52,7 @@
 
 	<!-- Shipping -->
 	<beans:bean id="canadapost"
-		class="com.react_native.modules.shipping.canadapost.CanadaPostQuoteModule"/><!--react_native-shipping-canadapost-module-->
+		class="com.java_spring.modules.shipping.canadapost.CanadaPostQuoteModule"/><!--java_spring-shipping-canadapost-module-->
 	<beans:bean id="usps"
 		class="com.salesmanager.core.business.modules.integration.shipping.impl.USPSShippingQuote"/>
 	<beans:bean id="ups"

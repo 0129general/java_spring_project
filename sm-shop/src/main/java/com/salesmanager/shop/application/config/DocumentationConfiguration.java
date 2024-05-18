@@ -38,7 +38,7 @@ import static springfox.documentation.spi.DocumentationType.SWAGGER_2;
 @EnableSwagger2
 public class DocumentationConfiguration {
 
-	public static final Contact DEFAULT_CONTACT = new Contact("react_native", "http://www.react_native.com", "");
+	public static final Contact DEFAULT_CONTACT = new Contact("java_spring", "http://www.java_spring.com", "");
 
 	/**
 	 * http://localhost:8080/swagger-ui.html#/ http://localhost:8080/v2/api-docs
@@ -80,8 +80,8 @@ public class DocumentationConfiguration {
 
 	@SuppressWarnings("rawtypes")
 	private ApiInfo apiInfo() {
-		return new ApiInfo("react_native REST API",
-				"API for react_native e-commerce. Contains public end points as well as private end points requiring basic authentication and remote authentication based on jwt bearer token. URL patterns containing /private/** use bearer token; those are authorized customer and administrators administration actions.",
+		return new ApiInfo("java_spring REST API",
+				"API for java_spring e-commerce. Contains public end points as well as private end points requiring basic authentication and remote authentication based on jwt bearer token. URL patterns containing /private/** use bearer token; those are authorized customer and administrators administration actions.",
 				"1.0", "urn:tos", DEFAULT_CONTACT, "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0",
 				new ArrayList<VendorExtension>());
 

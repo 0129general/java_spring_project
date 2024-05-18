@@ -6,7 +6,7 @@ package com.salesmanager.core.model.content;
 /**
  * Enum defining type of static content.
  * Currently following type of static content can be store and managed within 
- * react_native CMS system
+ * java_spring CMS system
  * <pre>
  * 1. Static content like JS, CSS file etc
  * 2. Digital Data (audio,video)

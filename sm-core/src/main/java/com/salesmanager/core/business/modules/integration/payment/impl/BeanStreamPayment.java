@@ -265,11 +265,11 @@ public class BeanStreamPayment implements PaymentModule {
 		HttpURLConnection conn =null;
 		try {
 			
-			//transaction = "requestType=BACKEND&merchant_id=300200260&trnType=P&username=carlito&password=react_native001&orderNumber=caa71106-7e3f-4975-a657-a35904dc32a0&trnCardOwner=Carl Samson&trnCardNumber=5100000020002000&trnExpMonth=10&trnExpYear=14&trnCardCvd=123&trnAmount=77.01&ordName=Carl S&ordAddress1=358 Du Languedoc&ordCity=Victoria&ordProvince=BC&ordPostalCode=V8T2E7&ordCountry=CA&ordPhoneNumber=(444) 555-6666&ordEmailAddress=csamson777@yahoo.com";
+			//transaction = "requestType=BACKEND&merchant_id=300200260&trnType=P&username=carlito&password=java_spring001&orderNumber=caa71106-7e3f-4975-a657-a35904dc32a0&trnCardOwner=Carl Samson&trnCardNumber=5100000020002000&trnExpMonth=10&trnExpYear=14&trnCardCvd=123&trnAmount=77.01&ordName=Carl S&ordAddress1=358 Du Languedoc&ordCity=Victoria&ordProvince=BC&ordPostalCode=V8T2E7&ordCountry=CA&ordPhoneNumber=(444) 555-6666&ordEmailAddress=csamson777@yahoo.com";
 			/**
 			requestType=BACKEND&merchant_id=300200260
 			&trnType=P
-			&username=carlito&password=react_native001
+			&username=carlito&password=java_spring001
 			&orderNumber=caa71106-7e3f-4975-a657-a35904dc32a0
 			&trnCardOwner=Carl Samson
 			&trnCardNumber=5100000020002000

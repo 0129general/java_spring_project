@@ -25,7 +25,7 @@
 	</bean>
 
     <bean id="serviceCache" factory-bean="serviceCacheManager" factory-method="getCache">
-        <constructor-arg value="com.react_native.OBJECT_CACHE" />
+        <constructor-arg value="com.java_spring.OBJECT_CACHE" />
     </bean>
 
 </beans>

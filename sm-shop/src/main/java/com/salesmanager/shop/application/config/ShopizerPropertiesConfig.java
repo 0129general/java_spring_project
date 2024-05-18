@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 
 @Configuration
-public class react_nativePropertiesConfig {
+public class java_springPropertiesConfig {
 
   @Bean
   public List<String> templates() {
@@ -21,10 +21,10 @@ public class react_nativePropertiesConfig {
     return new InitStoreData();
   }
 
-  @Bean(name = "react_native-properties")
+  @Bean(name = "java_spring-properties")
   public PropertiesFactoryBean mapper() {
     PropertiesFactoryBean bean = new PropertiesFactoryBean();
-    bean.setLocation(new ClassPathResource("react_native-properties.properties"));
+    bean.setLocation(new ClassPathResource("java_spring-properties.properties"));
     return bean;
   }
 }

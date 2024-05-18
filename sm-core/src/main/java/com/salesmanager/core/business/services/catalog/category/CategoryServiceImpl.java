@@ -25,7 +25,7 @@ public class CategoryServiceImpl extends SalesManagerEntityServiceImpl<Long, Cat
 	
 	 private CategoryRepository categoryRepository;
 	
-	 @PersistenceContext(unitName = "react_nativeContainer")
+	 @PersistenceContext(unitName = "java_springContainer")
 	 private EntityManager em;
 	  
 	 @Inject

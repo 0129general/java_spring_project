@@ -800,18 +800,18 @@ public class InitStoreData implements InitData {
 			productRelationshipService.saveOrUpdate(relationship);
 			
 		    
-		    //Create a customer (user name[nick] : react_native password : password)
+		    //Create a customer (user name[nick] : java_spring password : password)
 
 		    Customer customer = new Customer();
 			customer.setMerchantStore(store);
-			customer.setEmailAddress("test@react_native.com");
+			customer.setEmailAddress("test@java_spring.com");
 			customer.setGender(CustomerGender.M);						
 			customer.setAnonymous(false);
 			customer.setCompany("CSTI Consulting");
 			customer.setDateOfBirth(new Date());
 
 			customer.setDefaultLanguage(en);
-			customer.setNick("react_native");
+			customer.setNick("java_spring");
 			
 			String password = passwordEncoder.encode("password");
 			customer.setPassword(password);
@@ -869,7 +869,7 @@ public class InitStoreData implements InitData {
 			order.setCustomerId(customer.getId());
 			order.setBilling(billing);
 			order.setDelivery(delivery);
-			order.setCustomerEmailAddress("leo@react_native.com");
+			order.setCustomerEmailAddress("leo@java_spring.com");
 			order.setDelivery(delivery);
 			order.setIpAddress("ipAddress" );
 			order.setMerchant(store);

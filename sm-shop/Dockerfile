@@ -1,5 +1,5 @@
 FROM tomcat:8.5.40-jre8
-MAINTAINER react_nativeecomm
+MAINTAINER java_springecomm
 
 VOLUME /tmp
 

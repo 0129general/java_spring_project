@@ -9,8 +9,8 @@ response.setDateHeader ("Expires", -1);
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="s" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
-<%@ taglib uri="/WEB-INF/react_native-tags.tld" prefix="sm" %>
-<%@ taglib uri="/WEB-INF/react_native-functions.tld" prefix="display" %> 
+<%@ taglib uri="/WEB-INF/java_spring-tags.tld" prefix="sm" %>
+<%@ taglib uri="/WEB-INF/java_spring-functions.tld" prefix="display" %> 
 
 <!-- TT Typeahead js files -->
 <script src="<c:url value="/resources/js/hogan.js" />"></script>
@@ -21,7 +21,7 @@ response.setDateHeader ("Expires", -1);
 $(document).ready(function() { 
 
 	$('#searchField').typeahead({
-		name: 'react_native-search',
+		name: 'java_spring-search',
 		<c:if test="${requestScope.CONFIGS['useDefaultSearchConfig'][requestScope.LANGUAGE.code]==true}">
 		  <c:if test="${requestScope.CONFIGS['defaultSearchConfigPath'][requestScope.LANGUAGE.code]!=null}">
 		prefetch: '<c:out value="${requestScope.CONFIGS['defaultSearchConfigPath'][requestScope.LANGUAGE.code]}"/>',

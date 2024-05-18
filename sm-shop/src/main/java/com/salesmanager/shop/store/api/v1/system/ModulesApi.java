@@ -44,7 +44,7 @@ public class ModulesApi {
       "configuration":[{"env":"TEST","scheme":"","host":"","port":"","uri":"","config1":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token="},{"env":"PROD","scheme":"","host":"","port":"","uri":"","config1":"https://www.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token="}]
       }
    *
-   * see : react_native/sm-core/src/main/resources/reference/integrationmodules.json for more samples
+   * see : java_spring/sm-core/src/main/resources/reference/integrationmodules.json for more samples
    * @param json
    * @param request
    * @param response

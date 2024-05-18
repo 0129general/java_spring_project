@@ -21,7 +21,7 @@
         
         
 
-  <beans:import resource="classpath:/spring/react_native-core-context.xml" />
+  <beans:import resource="classpath:/spring/java_spring-core-context.xml" />
 
 
   <beans:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
@@ -35,7 +35,7 @@
   <context:component-scan base-package="com.salesmanager.test" />
 
   <!-- For testing utility classes -->
-  <util:properties id="react_native-properties">
+  <util:properties id="java_spring-properties">
     			<beans:prop key="MULTIPLE_PRICE_AVAILABILITY">false</beans:prop>
     			<beans:prop key="INDEX_PRODUCTS">false</beans:prop>
     			

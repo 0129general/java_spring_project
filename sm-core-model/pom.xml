@@ -11,11 +11,11 @@
 		<version>1.5.18.RELEASE</version>
 	</parent>
 	<version>2.6.0</version> 
-	<groupId>com.react_native</groupId> -->
+	<groupId>com.java_spring</groupId> -->
 
  	<parent>
-		<groupId>com.react_native</groupId>
-		<artifactId>react_native</artifactId>
+		<groupId>com.java_spring</groupId>
+		<artifactId>java_spring</artifactId>
 		<version>2.6.0</version>
 	</parent>
 
@@ -24,7 +24,7 @@
 	<description>sm-core-modules is used for create new external modules implementation deployed in maven.</description>
 	<packaging>jar</packaging>
 	<name>sm-core-model</name>
-	<url>http://www.react_native.com</url>
+	<url>http://www.java_spring.com</url>
 
 	<licenses>
 		<license>
@@ -35,10 +35,10 @@
 
 	<developers>
 		<developer>
-			<name>react_native Team</name>
-			<email>team@react_native.com</email>
-			<organization>react_native</organization>
-			<organizationUrl>http://www.react_native.com</organizationUrl>
+			<name>java_spring Team</name>
+			<email>team@java_spring.com</email>
+			<organization>java_spring</organization>
+			<organizationUrl>http://www.java_spring.com</organizationUrl>
 		</developer>
 	</developers>
 
@@ -219,9 +219,9 @@
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:git://github.com:0129general/react_native-sm-core-model.git</connection>
-		<developerConnection>scm:git:ssh://github.com:0129general/react_native-sm-core-model.git</developerConnection>
-		<url>https://github.com/0129general/react_native-sm-core-model</url>
+		<connection>scm:git:git://github.com:0129general/java_spring-sm-core-model.git</connection>
+		<developerConnection>scm:git:ssh://github.com:0129general/java_spring-sm-core-model.git</developerConnection>
+		<url>https://github.com/0129general/java_spring-sm-core-model</url>
 	</scm>
 
 </project>

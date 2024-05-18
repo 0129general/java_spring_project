@@ -28,7 +28,7 @@ import com.salesmanager.core.model.content.OutputContentFile;
  * 
  * following this article: https://www.baeldung.com/java-google-cloud-storage
  * 
- * gsutil ls -L -b gs://react_native-content
+ * gsutil ls -L -b gs://java_spring-content
  * 
  * 
  * @author carlsamson
@@ -101,7 +101,7 @@ public class GCPStaticContentAssetsManagerImpl implements ContentAssetsManager {
   
   private Bucket getBucket() {
     
-    //Bucket bucket = storage.create(BucketInfo.of("react_native-content")); //get bucket 
+    //Bucket bucket = storage.create(BucketInfo.of("java_spring-content")); //get bucket 
     return null;
     
     

@@ -7,7 +7,7 @@ import com.salesmanager.core.model.merchant.MerchantStore;
 public interface ImageFilePath {
 	
 	/**
-	 * Context path configured in react_native-properties.xml
+	 * Context path configured in java_spring-properties.xml
 	 * @return
 	 */
 	public String getContextPath();

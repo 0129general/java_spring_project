@@ -66,7 +66,7 @@
 		auto-config="true" 
 		use-expressions="true"
 		authentication-manager-ref="adminAuthenticationManager">
-		<!-- react_native logon page -->
+		<!-- java_spring logon page -->
 
 		<intercept-url pattern="/admin/logon*" access="permitAll" />
 		<intercept-url pattern="/admin/denied.html" access="permitAll" />

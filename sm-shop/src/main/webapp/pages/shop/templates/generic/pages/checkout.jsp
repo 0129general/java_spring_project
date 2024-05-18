@@ -10,13 +10,13 @@ response.setDateHeader ("Expires", -1);
 <%@ taglib uri="http://www.springframework.org/tags" prefix="s" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <%@ taglib uri="http://www.springframework.org/security/tags" prefix="sec" %>
-<%@ taglib uri="/WEB-INF/react_native-tags.tld" prefix="sm" %> 
+<%@ taglib uri="/WEB-INF/java_spring-tags.tld" prefix="sm" %> 
  
 <%@page contentType="text/html"%>
 <%@page pageEncoding="UTF-8"%>
 
 <c:if test="${shippingMetaData.useDistanceModule==true}">
-	<script src="https://maps.googleapis.com/maps/api/js?key=<sm:config configurationCode="react_native.googlemaps_key" />"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=<sm:config configurationCode="java_spring.googlemaps_key" />"></script>
 </c:if>
 
 <!-- overrides with v2 page -->

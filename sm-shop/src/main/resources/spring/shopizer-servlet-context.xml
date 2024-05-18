@@ -33,7 +33,7 @@
 	<beans:bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
 		<beans:property name="basenames">
 			<beans:list>
-  				<beans:value>classpath:bundles/react_native</beans:value>
+  				<beans:value>classpath:bundles/java_spring</beans:value>
   				<beans:value>classpath:bundles/messages</beans:value>
   				<beans:value>classpath:bundles/shipping</beans:value>
   				<beans:value>classpath:bundles/payment</beans:value>    
@@ -65,7 +65,7 @@
 	-->
 	<!-- 	
 	<beans:bean id="img" class="com.salesmanager.shop.utils.AWSFilePathUtils">
-		<beans:property name="basePath" value="https://s3.ca-central-1.amazonaws.com/react_native-demo" />
+		<beans:property name="basePath" value="https://s3.ca-central-1.amazonaws.com/java_spring-demo" />
 	</beans:bean> 
 	-->
 	

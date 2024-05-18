@@ -475,7 +475,7 @@ public class PayPalExpressCheckoutPayment implements PaymentModule {
 			 orderTotal.setValue(pricingService.getStringAmount(amount, store));
 			 orderTotal.setCurrencyID(urn.ebay.apis.eBLBaseComponents.CurrencyCodeType.fromValue(payment.getCurrency().getCode()));
 			 paymentDetail.setOrderTotal(orderTotal);
-			 paymentDetail.setButtonSource("react_native_Cart_AP");
+			 paymentDetail.setButtonSource("java_spring_Cart_AP");
 			 /** sale or pre-auth **/
 			 if(payment.getTransactionType().name().equals(TransactionType.AUTHORIZE.name())) {
 				 paymentDetail.setPaymentAction(urn.ebay.apis.eBLBaseComponents.PaymentActionCodeType.AUTHORIZATION);

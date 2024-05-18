@@ -5,8 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.react_native</groupId>
-		<artifactId>react_native</artifactId>
+		<groupId>com.java_spring</groupId>
+		<artifactId>java_spring</artifactId>
 		<version>2.6.0</version>
 	</parent>
 
@@ -14,7 +14,7 @@
 	<packaging>jar</packaging>
 
 	<name>sm-core</name>
-	<url>http://www.react_native.com</url>
+	<url>http://www.java_spring.com</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,24 +26,24 @@
 		<coverage.lines>.00</coverage.lines>
 		<coverage.branches>.00</coverage.branches>
 		<!-- RODO change -->
-		<react_native.version>2.5.0</react_native.version>
+		<java_spring.version>2.5.0</java_spring.version>
 	</properties>
 
 	<dependencies>
 
 		<!-- sm-core-model -->
 		<dependency>
-			<groupId>com.react_native</groupId>
+			<groupId>com.java_spring</groupId>
 			<artifactId>sm-core-model</artifactId>
-			<version>${react_native.version}</version>
+			<version>${java_spring.version}</version>
 		</dependency>
 
 
 		<!-- sm-core-modules -->
 		<dependency>
-			<groupId>com.react_native</groupId>
+			<groupId>com.java_spring</groupId>
 			<artifactId>sm-core-modules</artifactId>
-			<version>${react_native.version}</version>
+			<version>${java_spring.version}</version>
 		</dependency>
 
 
@@ -58,16 +58,16 @@
 		<!-- shipping rules -->
 		<!-- shipping distance pre-processor -->
 		<dependency>
-			<groupId>com.react_native</groupId>
-			<artifactId>react_native-shipping-distance-processor</artifactId>
-			<version>${react_native-shipping-distance.version}</version>
+			<groupId>com.java_spring</groupId>
+			<artifactId>java_spring-shipping-distance-processor</artifactId>
+			<version>${java_spring-shipping-distance.version}</version>
 		</dependency>
 
 		<!-- canadapost -->
 		<dependency>
-			<groupId>com.react_native</groupId>
-			<artifactId>react_native-shipping-canadapost-module</artifactId>
-			<version>${react_native-canadapost.version}</version>
+			<groupId>com.java_spring</groupId>
+			<artifactId>java_spring-shipping-canadapost-module</artifactId>
+			<version>${java_spring-canadapost.version}</version>
 		</dependency>
 
 
@@ -274,9 +274,9 @@
 			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>com.react_native</groupId>
+			<groupId>com.java_spring</groupId>
 			<artifactId>sm-search</artifactId>
-			<version>${react_native.search.version}</version>
+			<version>${java_spring.search.version}</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.elasticsearch</groupId>

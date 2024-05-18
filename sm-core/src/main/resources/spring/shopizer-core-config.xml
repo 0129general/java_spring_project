@@ -23,7 +23,7 @@
 	<!-- JPA and transactions -->
 	<tx:annotation-driven />
 
-	<beans:bean id="entityManagerFactory" name="react_nativeContainer"
+	<beans:bean id="entityManagerFactory" name="java_springContainer"
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
 
 		<beans:property name="dataSource" ref="dataSource" />
@@ -55,7 +55,7 @@
 				<beans:entry key="hibernate.connection.useUnicode"
 					value="true" />
 
-				<!-- Uncomment the following 2 lines to generate react_native sql schema 
+				<!-- Uncomment the following 2 lines to generate java_spring sql schema 
 					when the application is built. Remove the schema.sql file once generated, 
 					otherwise it will try to create it twice in the test database (table already 
 					exist... -->
@@ -103,7 +103,7 @@
 	<!-- in sm-shop -->
 	<beans:bean id="coreConfiguration"
 		class="com.salesmanager.core.business.utils.CoreConfiguration">
-		<beans:property name="properties" ref="react_native-properties" />
+		<beans:property name="properties" ref="java_spring-properties" />
 	</beans:bean>
 
 	<beans:bean id="secretKey" class="java.lang.String">
@@ -135,7 +135,7 @@
 				<beans:list>
 					<beans:value>classpath:database.properties</beans:value>
 					<beans:value>classpath:email.properties</beans:value>
-					<beans:value>classpath:react_native-core.properties</beans:value>
+					<beans:value>classpath:java_spring-core.properties</beans:value>
 					<beans:value>classpath:authentication.properties</beans:value>
 					<beans:value>classpath:vault.properties</beans:value>
 				</beans:list>
@@ -152,7 +152,7 @@
 				<beans:list>
 					<beans:value>classpath:database.properties</beans:value>
 					<beans:value>classpath:email.properties</beans:value>
-					<beans:value>classpath:react_native-core.properties</beans:value>
+					<beans:value>classpath:java_spring-core.properties</beans:value>
 					<beans:value>classpath:authentication.properties</beans:value>
 					<beans:value>classpath:vault.properties</beans:value>
 				</beans:list>
@@ -170,7 +170,7 @@
 					<beans:value>classpath:profiles/gcp/database.properties
 					</beans:value>
 					<beans:value>classpath:email.properties</beans:value>
-					<beans:value>classpath:profiles/gcp/react_native-core.properties
+					<beans:value>classpath:profiles/gcp/java_spring-core.properties
 					</beans:value>
 					<beans:value>classpath:authentication.properties</beans:value>
 					<beans:value>classpath:vault.properties</beans:value>
@@ -189,7 +189,7 @@
 					<beans:value>classpath:profiles/cloud/database.properties
 					</beans:value>
 					<beans:value>classpath:email.properties</beans:value>
-					<beans:value>classpath:profiles/cloud/react_native-core.properties
+					<beans:value>classpath:profiles/cloud/java_spring-core.properties
 					</beans:value>
 					<beans:value>classpath:authentication.properties</beans:value>
 					<beans:value>classpath:vault.properties</beans:value>
@@ -208,7 +208,7 @@
 					<beans:value>classpath:profiles/docker/database.properties
 					</beans:value>
 					<beans:value>classpath:email.properties</beans:value>
-					<beans:value>classpath:profiles/docker/react_native-core.properties
+					<beans:value>classpath:profiles/docker/java_spring-core.properties
 					</beans:value>
 					<beans:value>classpath:authentication.properties</beans:value>
 					<beans:value>classpath:vault.properties</beans:value>
@@ -227,7 +227,7 @@
 					<beans:value>classpath:database.properties
 					</beans:value>
 					<beans:value>classpath:email.properties</beans:value>
-					<beans:value>classpath:profiles/aws/react_native-core.properties</beans:value>
+					<beans:value>classpath:profiles/aws/java_spring-core.properties</beans:value>
 					<beans:value>classpath:authentication.properties</beans:value>
 					<beans:value>classpath:vault.properties</beans:value>
 				</beans:list>

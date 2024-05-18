@@ -3,7 +3,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="s" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
-<%@ taglib uri="/WEB-INF/react_native-tags.tld" prefix="sm" %> 
+<%@ taglib uri="/WEB-INF/java_spring-tags.tld" prefix="sm" %> 
 <%@ page session="false" %>				
 				
 

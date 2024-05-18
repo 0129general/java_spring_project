@@ -27,10 +27,10 @@ import com.salesmanager.core.model.search.IndexProduct;
 import com.salesmanager.core.model.search.SearchEntry;
 import com.salesmanager.core.model.search.SearchFacet;
 import com.salesmanager.core.model.search.SearchKeywords;
-import com.react_native.search.services.Facet;
-import com.react_native.search.services.SearchHit;
-import com.react_native.search.services.SearchRequest;
-import com.react_native.search.services.SearchResponse;
+import com.java_spring.search.services.Facet;
+import com.java_spring.search.services.SearchHit;
+import com.java_spring.search.services.SearchRequest;
+import com.java_spring.search.services.SearchResponse;
 
 
 
@@ -45,7 +45,7 @@ public class SearchServiceImpl implements com.salesmanager.core.business.service
 	private final static String INDEX_PRODUCTS = "INDEX_PRODUCTS";
 
 	@Inject
-	private com.react_native.search.services.SearchService searchService;
+	private com.java_spring.search.services.SearchService searchService;
 	
 	@Inject
 	private PricingService pricingService;
@@ -259,7 +259,7 @@ public class SearchServiceImpl implements com.salesmanager.core.business.service
 						for(String key : facets.keySet()) {
 							
 							Facet f = facets.get(key);
-							List<com.react_native.search.services.Entry> ent = f.getEntries();
+							List<com.java_spring.search.services.Entry> ent = f.getEntries();
 							
 							//List<FacetEntry> f = facets.get(key);
 							
@@ -269,7 +269,7 @@ public class SearchServiceImpl implements com.salesmanager.core.business.service
 								searchFacets.put(key, fs);
 							}
 		
-							for(com.react_native.search.services.Entry facetEntry : ent) {
+							for(com.java_spring.search.services.Entry facetEntry : ent) {
 							
 								SearchFacet searchFacet = new SearchFacet();
 								searchFacet.setKey(facetEntry.getName());

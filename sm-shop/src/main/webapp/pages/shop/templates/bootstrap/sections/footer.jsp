@@ -9,7 +9,7 @@ response.setDateHeader ("Expires", -1);
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="s" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
-<%@ taglib uri="/WEB-INF/react_native-tags.tld" prefix="sm" %> 
+<%@ taglib uri="/WEB-INF/java_spring-tags.tld" prefix="sm" %> 
 <%@ taglib uri="http://www.springframework.org/security/tags" prefix="sec" %> 
  
 <%@page contentType="text/html"%>
@@ -77,7 +77,7 @@ response.setDateHeader ("Expires", -1);
 		    <div id="footer-bottom">
 				<div class="container">
 				   <div class="row-fluid">
-					<div class="span12 text">&copy;&nbsp;<s:message code="label.generic.providedby" /> <a href="http://www.react_native.com" class="footer-href" target="_blank">react_native</div>
+					<div class="span12 text">&copy;&nbsp;<s:message code="label.generic.providedby" /> <a href="http://www.java_spring.com" class="footer-href" target="_blank">java_spring</div>
 				   </div>
 				 </div>
 		    </div>

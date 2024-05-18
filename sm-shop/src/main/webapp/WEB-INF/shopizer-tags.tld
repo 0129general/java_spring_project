@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
  
  <taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
-   <description><![CDATA["react_native tag libs"]]></description>
-   <display-name>"react_native Tags"</display-name>
+   <description><![CDATA["java_spring tag libs"]]></description>
+   <display-name>"java_spring Tags"</display-name>
    <tlib-version>2.2</tlib-version>
    <short-name>sm</short-name>
-   <uri>/react_native-tags</uri>
+   <uri>/java_spring-tags</uri>
 
 <tag>
  		 <!-- Builds the image URL (in admin section only)-->

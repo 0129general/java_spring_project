@@ -31,7 +31,7 @@
   
     
     
-    <!-- required common scripts for react_native -->
+    <!-- required common scripts for java_spring -->
     <script src="<c:url value="/resources/js/jquery.raty.min.js" />"></script>
 	<script src="<c:url value="/resources/js/shop-functions.js" />"></script>
 	<script src="<c:url value="/resources/js/shop-customer.js" />"></script>

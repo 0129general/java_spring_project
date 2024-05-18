@@ -10,8 +10,8 @@ response.setDateHeader ("Expires", -1);
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="s"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<%@ taglib uri="/WEB-INF/react_native-tags.tld" prefix="sm"%>
-<%@ taglib uri="/WEB-INF/react_native-functions.tld" prefix="display"%>
+<%@ taglib uri="/WEB-INF/java_spring-tags.tld" prefix="sm"%>
+<%@ taglib uri="/WEB-INF/java_spring-functions.tld" prefix="display"%>
 
 
 <c:set var="req" value="${request}" />
@@ -73,7 +73,7 @@ $(document).ready(function() {
 	    highlight: true,
 	    minLength: 1
 	}, {
-		name: 'react_native-search',
+		name: 'java_spring-search',
 	    displayKey: 'value',
 	    source: searchElements.ttAdapter(),
 	    templates: {
@@ -87,7 +87,7 @@ $(document).ready(function() {
 	    highlight: true,
 	    minLength: 1
 	}, {
-		name: 'modal-react_native-search',
+		name: 'modal-java_spring-search',
 	    displayKey: 'value',
 	    source: searchElements.ttAdapter(),
 	    templates: {

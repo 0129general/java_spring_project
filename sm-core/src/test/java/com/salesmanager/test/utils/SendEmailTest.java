@@ -49,9 +49,9 @@ public class SendEmailTest extends AbstractSalesManagerCoreTestCase {
 
       Email email = new Email();
       email.setFrom("Default store");
-      email.setFromEmail("test@react_native.com");
+      email.setFromEmail("test@java_spring.com");
       email.setSubject("Contact");
-      email.setTo("test@react_native.com");
+      email.setTo("test@java_spring.com");
       email.setTemplateName("email_template_contact.ftl");
       email.setTemplateTokens(templateTokens);
 

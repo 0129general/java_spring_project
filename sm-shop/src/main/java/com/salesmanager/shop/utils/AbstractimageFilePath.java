@@ -25,7 +25,7 @@ public abstract class AbstractimageFilePath implements ImageFilePath {
 	
 	protected static final String CONTEXT_PATH = "CONTEXT_PATH";
 	
-	public @Resource(name="react_native-properties") Properties properties = new Properties();//react_native-properties
+	public @Resource(name="java_spring-properties") Properties properties = new Properties();//java_spring-properties
 
 	
 	public Properties getProperties() {

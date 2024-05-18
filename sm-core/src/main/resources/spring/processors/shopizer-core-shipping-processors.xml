@@ -32,7 +32,7 @@
 		<!-- Calculates the distance between the origin and destination -->
 		<!-- shipping-distance-processor project -->
 		<bean id="shippingDistancePreProcessor"
-			class="com.react_native.modules.shipping.distance.ShippingDistancePreProcessorImpl">
+			class="com.java_spring.modules.shipping.distance.ShippingDistancePreProcessorImpl">
 			<!-- Google API key -->
 			<property name="apiKey" value="${shippingDistancePreProcessor.apiKey}"/>
 			<property name="allowedZonesCodes" ref="acceptedZones"/>

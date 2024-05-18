@@ -97,7 +97,7 @@ public class InitializationLoader {
 
 				//All default data to be created
 				
-				LOGGER.info(String.format("%s : react_native database is empty, populate it....", "sm-shop"));
+				LOGGER.info(String.format("%s : java_spring database is empty, populate it....", "sm-shop"));
 		
 				 initializationDatabase.populate("sm-shop");
 				

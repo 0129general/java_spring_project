@@ -9,13 +9,13 @@ import org.springframework.context.annotation.ImportResource;
 @Configuration
 @EnableAutoConfiguration
 /**
- * added in react_native-core-config.xml
+ * added in java_spring-core-config.xml
  * 
  * @author c.samson
  *
  */
 @ComponentScan({"com.salesmanager.core.business"})
-@ImportResource("classpath:/spring/react_native-core-context.xml")
+@ImportResource("classpath:/spring/java_spring-core-context.xml")
 //@Import({DroolsConfiguration.class,VaultConfiguration.class})
 @Import({DroolsConfiguration.class})
 public class CoreApplicationConfiguration {

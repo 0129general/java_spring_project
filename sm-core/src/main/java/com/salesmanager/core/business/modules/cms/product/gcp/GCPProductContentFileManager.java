@@ -43,7 +43,7 @@ public class GCPProductContentFileManager implements ProductAssetsManager {
   @Autowired 
   private CMSManager gcpAssetsManager;
   
-  private static String DEFAULT_BUCKET_NAME = "react_native-products-";
+  private static String DEFAULT_BUCKET_NAME = "java_spring-products-";
   
   private static final Logger LOGGER = LoggerFactory.getLogger(GCPProductContentFileManager.class);
 

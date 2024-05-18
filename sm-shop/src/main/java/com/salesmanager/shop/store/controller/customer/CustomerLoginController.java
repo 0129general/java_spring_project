@@ -162,7 +162,7 @@ public class CustomerLoginController extends AbstractController {
 		
 		
 	}
-	//http://localhost:8080/sm-shop/shop/customer/authenticate.html?userName=react_native&password=password&storeCode=DEFAULT
+	//http://localhost:8080/sm-shop/shop/customer/authenticate.html?userName=java_spring&password=password&storeCode=DEFAULT
 	@RequestMapping(value="/authenticate.html", method=RequestMethod.GET)
 	public @ResponseBody String basicLogon(@RequestParam String userName, @RequestParam String password, @RequestParam String storeCode, HttpServletRequest request, HttpServletResponse response) throws Exception {
 

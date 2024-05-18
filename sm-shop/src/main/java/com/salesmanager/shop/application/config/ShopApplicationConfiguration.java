@@ -48,7 +48,7 @@ import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 @ComponentScan({"com.salesmanager.shop", "com.salesmanager.core.business"})
 @ServletComponentScan
 @Import({CoreApplicationConfiguration.class}) // import sm-core configurations
-@ImportResource({"classpath:/spring/react_native-shop-context.xml"})
+@ImportResource({"classpath:/spring/java_spring-shop-context.xml"})
 @EnableWebSecurity
 public class ShopApplicationConfiguration extends WebMvcConfigurerAdapter {
 
@@ -181,7 +181,7 @@ public class ShopApplicationConfiguration extends WebMvcConfigurerAdapter {
     ReloadableResourceBundleMessageSource messageSource =
         new ReloadableResourceBundleMessageSource();
     messageSource.setBasenames(
-        "classpath:bundles/react_native",
+        "classpath:bundles/java_spring",
         "classpath:bundles/messages",
         "classpath:bundles/shipping",
         "classpath:bundles/payment");

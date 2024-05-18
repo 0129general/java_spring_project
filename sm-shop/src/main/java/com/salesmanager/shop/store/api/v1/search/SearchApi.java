@@ -23,7 +23,7 @@ import io.swagger.annotations.ApiImplicitParams;
 import springfox.documentation.annotations.ApiIgnore;
 
 /**
- * Api for searching react_native catalog based on search term when filtering products based on product
+ * Api for searching java_spring catalog based on search term when filtering products based on product
  * attribute is required, see /api/v1/product
  *
  * @author c.samson

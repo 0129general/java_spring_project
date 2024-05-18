@@ -124,7 +124,7 @@ public class UserServicesImpl implements WebUserServices{
 		  List<Group> groups = groupService.listGroup(GroupType.ADMIN);
 		  
 		  //creation of the super admin admin:password)
-		  com.salesmanager.core.model.user.User user = new com.salesmanager.core.model.user.User("admin",password,"admin@react_native.com");
+		  com.salesmanager.core.model.user.User user = new com.salesmanager.core.model.user.User("admin",password,"admin@java_spring.com");
 		  user.setFirstName("Administrator");
 		  user.setLastName("User");
 		  

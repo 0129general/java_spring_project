@@ -10,7 +10,7 @@ response.setDateHeader ("Expires", -1);
 <%@ taglib uri="http://www.springframework.org/tags" prefix="s" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
-<%@ taglib uri="/WEB-INF/react_native-tags.tld" prefix="sm" %> 
+<%@ taglib uri="/WEB-INF/java_spring-tags.tld" prefix="sm" %> 
  
 <%@page contentType="text/html"%>
 <%@page pageEncoding="UTF-8"%>
@@ -128,7 +128,7 @@ response.setDateHeader ("Expires", -1);
 								  </span>
 								  <p>
 								  <!--<div class="fb-like" data-href="<c:out value="${requestScope.MERCHANT_STORE.domainName}"/><c:url value="/shop/${product.description.friendlyUrl}.html"/>" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>-->
-								  <iframe src="https://www.facebook.com/plugins/share_button.php?href=<c:out value="${requestScope.CONFIGS['SHOP_SCHEME']}"/>%3A%2F%2F<c:out value="${requestScope.MERCHANT_STORE.domainName}"/><c:url value="/shop/${product.description.friendlyUrl}.html"/>&layout=button_count&size=large&mobile_iframe=true&appId=<c:out value="${requestScope.CONFIGS['react_native.facebook-appid']}"/>&width=83&height=28" width="83" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+								  <iframe src="https://www.facebook.com/plugins/share_button.php?href=<c:out value="${requestScope.CONFIGS['SHOP_SCHEME']}"/>%3A%2F%2F<c:out value="${requestScope.MERCHANT_STORE.domainName}"/><c:url value="/shop/${product.description.friendlyUrl}.html"/>&layout=button_count&size=large&mobile_iframe=true&appId=<c:out value="${requestScope.CONFIGS['java_spring.facebook-appid']}"/>&width=83&height=28" width="83" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 								  </p>
 								  <jsp:include page="/pages/shop/common/catalog/addToCartProduct.jsp" />
 								</div>

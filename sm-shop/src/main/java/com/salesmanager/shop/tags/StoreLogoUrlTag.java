@@ -27,7 +27,7 @@ public class StoreLogoUrlTag extends RequestContextAwareTag {
 	private static final Logger LOGGER = LoggerFactory.getLogger(StoreLogoUrlTag.class);
 	private static final String RESOURCES = "resources";
 	private static final String IMG = "img";
-	private static final String react_native_LOGO = "react_native_small.png";
+	private static final String java_spring_LOGO = "java_spring_small.png";
 	
 	@Inject
 	private FilePathUtils filePathUtils;
@@ -60,7 +60,7 @@ public class StoreLogoUrlTag extends RequestContextAwareTag {
 
 				imagePath
 					.append(RESOURCES).append("/")
-					.append(IMG).append("/").append(react_native_LOGO);
+					.append(IMG).append("/").append(java_spring_LOGO);
 			} else {
 				
 				imagePath

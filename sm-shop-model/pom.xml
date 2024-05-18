@@ -5,13 +5,13 @@
 	
 	<artifactId>sm-shop-model</artifactId>
 	<name>sm-shop-model</name>
-	<description>sm-shop-model contains react_native model objects for api</description>
-	<url>http://www.react_native.com</url>
+	<description>sm-shop-model contains java_spring model objects for api</description>
+	<url>http://www.java_spring.com</url>
 
 
  	<parent>
-		<groupId>com.react_native</groupId>
-		<artifactId>react_native</artifactId>
+		<groupId>com.java_spring</groupId>
+		<artifactId>java_spring</artifactId>
 		<version>2.6.0</version>
 	</parent>
 
@@ -20,7 +20,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId> 
 		<version>1.5.18.RELEASE</version> 
 	</parent>
-	<groupId>com.react_native</groupId>
+	<groupId>com.java_spring</groupId>
 	<version>2.6.0</version> -->
 
 
@@ -33,10 +33,10 @@
 
 	<developers>
 		<developer>
-			<name>react_native Team</name>
-			<email>team@react_native.com</email>
-			<organization>react_native</organization>
-			<organizationUrl>http://www.react_native.com</organizationUrl>
+			<name>java_spring Team</name>
+			<email>team@java_spring.com</email>
+			<organization>java_spring</organization>
+			<organizationUrl>http://www.java_spring.com</organizationUrl>
 		</developer>
 	</developers>
 
@@ -44,16 +44,16 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
 		<org.springframework-version>4.3.23.RELEASE</org.springframework-version>
-		<react_native.version>2.5.0</react_native.version>
+		<java_spring.version>2.5.0</java_spring.version>
 	</properties>
 
 
 	<dependencies>
 		<!-- sm-core-model -->
 		<dependency>
-			<groupId>com.react_native</groupId>
+			<groupId>com.java_spring</groupId>
 			<artifactId>sm-core-model</artifactId>
-			<version>${react_native.version}</version>
+			<version>${java_spring.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -174,9 +174,9 @@
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:git://github.com:0129general/react_native-sm-shop-model.git</connection>
-		<developerConnection>scm:git:ssh://github.com:0129general/react_native-sm-shop-model.git</developerConnection>
-		<url>https://github.com/0129general/react_native-sm-shop-model</url>
+		<connection>scm:git:git://github.com:0129general/java_spring-sm-shop-model.git</connection>
+		<developerConnection>scm:git:ssh://github.com:0129general/java_spring-sm-shop-model.git</developerConnection>
+		<url>https://github.com/0129general/java_spring-sm-shop-model</url>
 	</scm>
 
 </project>

@@ -48,7 +48,7 @@ public class S3StaticContentAssetsManagerImpl implements ContentAssetsManager {
       LoggerFactory.getLogger(S3StaticContentAssetsManagerImpl.class);
 
 
-  private static String DEFAULT_BUCKET_NAME = "react_native";
+  private static String DEFAULT_BUCKET_NAME = "java_spring";
   private static String DEFAULT_REGION_NAME = "us-east-1";
   private static final String ROOT_NAME = "files";
   private static S3StaticContentAssetsManagerImpl fileManager = null;

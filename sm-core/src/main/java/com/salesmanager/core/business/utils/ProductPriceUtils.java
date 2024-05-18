@@ -304,7 +304,7 @@ public class ProductPriceUtils {
 	}
 	
 	/**
-	 * Returns a formatted amount using react_native Currency
+	 * Returns a formatted amount using java_spring Currency
 	 * requires internal java.util.Currency populated
 	 * @param currency
 	 * @param amount

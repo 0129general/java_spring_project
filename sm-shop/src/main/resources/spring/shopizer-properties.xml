@@ -17,7 +17,7 @@
 	 -->
 
 	<!-- Properties to be used accross all components of the application -->
-	<util:properties id="react_native-properties">
+	<util:properties id="java_spring-properties">
     			<prop key="MULTIPLE_PRICE_AVAILABILITY">false</prop>
     			<prop key="INDEX_PRODUCTS">true</prop>
 				<!-- Images (aspect ratio) -->
@@ -41,12 +41,12 @@
 				<!-- autocomplete query -->
 				<prop key="AUTOCOMPLETE_QUERY"><![CDATA[{"size": 10,"query": {"match": {"keyword": {"query": "%s","operator":"and"}}}}]]></prop>
 				<!-- Google maps key -->
-				<prop key="react_native.googlemaps_key">AIzaSyB9NBFBiHKJ00SpVlRB495bTktcJE3iwNA</prop>
+				<prop key="java_spring.googlemaps_key">AIzaSyB9NBFBiHKJ00SpVlRB495bTktcJE3iwNA</prop>
 				<!-- #https://www.google.com/recaptcha/admin/create -->
 				<!-- to be used with localhost -->
-				<prop key="react_native.recapatcha_public_key">6Le3DiUUAAAAAGECVhc4zwFewu8bG-6etonJNTvD</prop>
-				<prop key="react_native.recapatcha_private_key">6Le3DiUUAAAAAPUUz_JVqujTLRITPzbIR85khz6W</prop><!-- secret -->
-				<prop key="react_native.recapatcha_url"><![CDATA[https://www.google.com/recaptcha/api/siteverify]]></prop>
+				<prop key="java_spring.recapatcha_public_key">6Le3DiUUAAAAAGECVhc4zwFewu8bG-6etonJNTvD</prop>
+				<prop key="java_spring.recapatcha_private_key">6Le3DiUUAAAAAPUUz_JVqujTLRITPzbIR85khz6W</prop><!-- secret -->
+				<prop key="java_spring.recapatcha_url"><![CDATA[https://www.google.com/recaptcha/api/siteverify]]></prop>
 				
 				<!-- express checkout url -->
 				<prop key="PAYPAL_EXPRESSCHECKOUT_SANDBOX"><![CDATA[https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=]]></prop>

@@ -59,7 +59,7 @@ response.setDateHeader ("Expires", -1);
 
 		<div class="row">
 
-  			<div class="span4"><a class="brand" href="#"><img src="<c:url value="/resources/img/react_native_small.jpg" />"/></a></div>
+  			<div class="span4"><a class="brand" href="#"><img src="<c:url value="/resources/img/java_spring_small.jpg" />"/></a></div>
 
   			<div class="span4 offset4">
 
@@ -163,7 +163,7 @@ response.setDateHeader ("Expires", -1);
   
   
 		<footer> 
- 			<p>&copy; react_native 2010-<%=Calendar.getInstance().get(Calendar.YEAR)%></p> 
+ 			<p>&copy; java_spring 2010-<%=Calendar.getInstance().get(Calendar.YEAR)%></p> 
 		</footer> 
   
   

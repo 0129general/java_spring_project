@@ -75,7 +75,7 @@ public class Constants {
 	public final static String HTTP_SCHEME= "http";
 	
 	public final static String SHOP_SCHEME = "SHOP_SCHEME";
-	public final static String FACEBOOK_APP_ID = "react_native.facebook-appid";
+	public final static String FACEBOOK_APP_ID = "java_spring.facebook-appid";
 
 	public final static String MISSED_CACHE_KEY = "MISSED";
 	public final static String CONTENT_CACHE_KEY = "CONTENT";

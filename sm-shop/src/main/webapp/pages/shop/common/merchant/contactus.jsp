@@ -9,7 +9,7 @@ response.setDateHeader ("Expires", -1);
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="s" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
-<%@ taglib uri="/WEB-INF/react_native-tags.tld" prefix="sm" %> 
+<%@ taglib uri="/WEB-INF/java_spring-tags.tld" prefix="sm" %> 
  
 <%@page contentType="text/html"%>
 <%@page pageEncoding="UTF-8"%>
@@ -17,7 +17,7 @@ response.setDateHeader ("Expires", -1);
 <!--Set google map API key -->
 <c:if test="${requestScope.CONFIGS['displayStoreAddress'] == true}">
 <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=<sm:config configurationCode="react_native.googlemaps_key" />&sensor=true">
+      src="https://maps.googleapis.com/maps/api/js?key=<sm:config configurationCode="java_spring.googlemaps_key" />&sensor=true">
 </script>
 </c:if>
 

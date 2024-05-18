@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ehcache name="com.react_native.core.cache" 
+<ehcache name="com.java_spring.core.cache" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
 	
@@ -16,7 +16,7 @@
             memoryStoreEvictionPolicy="LRU" />
             
             
-     <cache name="com.react_native.OBJECT_CACHE"
+     <cache name="com.java_spring.OBJECT_CACHE"
            maxElementsInMemory="10000"
            eternal="false"
            overflowToDisk="false"
